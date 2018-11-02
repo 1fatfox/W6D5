@@ -1,0 +1,102 @@
+
+.clock {
+  font-family: 'Gloria Hallelujah';
+  border: 3px solid #e6a18b;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  width:300px;
+  margin: 0 auto;
+  border-radius: 100%;
+  height:300px;
+  background-color: #b2d6e6;
+  position: relative;
+}
+
+.clock-name {
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  color: #ff5722;
+  transform: rotate(90deg);
+  top: -12px;
+  border: 1px solid gray;
+  border-radius: 100%;
+  height:60px;
+  width: 60px;
+  background-color: #e8d41d;
+}
+
+.clock-timer {
+  font-size: 4em;
+  position:absolute;
+  top:35px;
+  color: #111b96;
+  border: 1.5px solid gray;
+  height: auto;
+  text-align: center;
+  width: 250px;
+  background-color: #e6d4ba;
+}
+
+.date {
+  position: absolute;
+  top: 200px;
+  font-size: 25px;
+  color: #111b96;
+}
+
+
+.tabbed {
+  margin: 0 auto;
+  width:60%;
+}
+
+.tabs {
+
+  width: 200px;
+  height: 300px;
+  box-sizing: border-box;
+
+}
+
+.t-head {
+  display:flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  /* border: 1px solid black; */
+  border-bottom: 0;
+  width:inherit;
+  background-color: #b6e49e;
+
+}
+
+.active {
+  background-color: #92e6db;
+  border: 1px solid black;
+}
+.t-head li {
+  border: 1px solid black;
+  border-bottom: 0;
+  padding: 10px;
+  border-radius: 14%;
+}
+
+.tab-stuff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:inherit;
+  border:1px solid black;
+  border-top:0;
+  position:absolute;
+  width:inherit;
+  top:433px;
+  background-color: #92e6db;
+}
+
+.t-head li:hover {
+  background-color:#92e6db;
+}
